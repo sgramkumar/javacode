@@ -6,3 +6,4 @@ if [ "$WORKSPACE" != "" ]
 then
     echo "inside if"
 fi
+error_line
