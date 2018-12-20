@@ -17,7 +17,7 @@ then
     echo $previous_leak
 fi
 
-leak=3000
+leak=3600
 echo "`date +%D`","$leak" >> leaksummary.csv
 cp leaksummary.csv /tmp
 
