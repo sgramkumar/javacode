@@ -9,6 +9,7 @@ then
     echo "inside if"
 fi
 
+previous_leak=0
 lines=`cat leaksummary.csv | wc -l`
 if [ "$lines" -gt "2" ]
 then
