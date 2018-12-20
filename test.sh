@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 echo "test file"
 echo "WORKSPACE: $WORKSPACE"
 if [ "$WORKSPACE" != "" ]
